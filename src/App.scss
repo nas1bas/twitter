@@ -1,0 +1,43 @@
+@import "./Components/Sidebar/sidebar.scss";
+@import "./Assets/styles/normalize.scss";
+@import "./Components/Home/home.scss";
+@import "./Components/Home/posts.scss";
+@import "./Components/Rightside/interesting.scss";
+@import "./Components/Rightside/rightside.scss";
+@import "./Components/Login/login.scss";
+@import "./Components/More/more.scss";
+@import "./Components/List/list.scss";
+@import "./Components/explore/explore.scss";
+@import './Components/Notification/notif.scss';
+@import './Components/message/message.scss';
+@import './Components/Bookmakers/bookmakers.scss';
+@import "./Components/Profile/profile.scss";
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 1499px;
+}
+
+img {
+    display: block;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+*,
+*::after,
+*::before {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.app {
+    display: flex;
+}

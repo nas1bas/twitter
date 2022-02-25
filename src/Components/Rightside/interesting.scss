@@ -1,0 +1,91 @@
+.interesting__content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    padding-bottom: 15px;
+    text-align: left;
+    background-color: #f7f9f9;
+    border-radius: 10px;
+}
+
+.interesting__title {
+    padding: 20px 15px 0px 22px;
+    margin-bottom: 25px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.interesting__card {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    margin-top: 18px;
+    margin-bottom: 25px;
+}
+
+.interesting__img {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin-right: 13px;
+}
+
+.interesting__item {
+    width: 175px;
+}
+
+.interesting__text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 1px;
+    margin-top: 0;
+}
+
+.interesting__span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    opacity: 0.6;
+}
+
+.interesting__btn {
+    padding: 10px 16px;
+    background: #000000;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    .interesting__btn:hover {
+        opacity: 0.7;
+    }
+}
+
+.interesting__link {
+    text-align: left;
+    font-family: Segoe UI;
+    font-size: 18px;
+    line-height: 100%;
+    color: #1da1f2;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    border: none;
+    background: #f7f9f9;
+    cursor: pointer;
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.content-show {
+    transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}

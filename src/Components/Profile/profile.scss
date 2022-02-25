@@ -1,0 +1,132 @@
+.profile {
+    position: relative;
+    z-index: 2;
+    height: 100vh;
+    width: 910px;
+    border-right: 1px solid #d8d8d8;
+}
+
+.profil {
+    padding: 20px 0 15px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.prof {
+    margin-left: 40px;
+}
+
+.prof-name {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 0;
+    margin: 0;
+}
+
+.prof-tweets {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.ava {
+    position: absolute;
+    z-index: 1;
+    top: 290px;
+    left: 25px;
+}
+
+.edit-btn {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 10px 15px;
+    margin-left: 775px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.prof-bobur {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.prof-username {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 0.6;
+    margin-left: 25px;
+}
+
+.professia {
+    margin-top: 15px;
+    margin-left: 25px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.work {
+    color: #1da1f2;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-item {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.follow {
+    margin-top: 15px;
+    padding: 15px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.follower {
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.item {
+    margin-right: 144px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    cursor: pointer;
+    &:active {
+        border-bottom: 5px solid #1da1f2;
+        font-weight: bold;
+    }
+}
+
+.pin {
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.img {
+    margin-top: -117px;
+}
