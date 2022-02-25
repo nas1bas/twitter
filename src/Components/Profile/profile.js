@@ -65,7 +65,7 @@ export default function Profile() {
             <p className='professia'>UX&UI designer at <span className='work'>@abutechuz</span></p>
             <ul className='list'>
                 <li className='list-item'><img src={locat} alt="location" />Mashag’daman</li>
-                <li className='list-item'><img src={ssilka} alt="ssilka" />t.me/boburjon_mavlonov</li>
+                <li className='list-item work'><img src={ssilka} alt="ssilka" />t.me/boburjon_mavlonov</li>
                 <li className='list-item'><img src={birth} alt="birth" />Born November 24, 2000</li>
                 <li className='list-item'><img src={join} alt="data" />Joined May 2020</li>
                 <p className='follow'>67<span className='follower'>Following</span></p>
